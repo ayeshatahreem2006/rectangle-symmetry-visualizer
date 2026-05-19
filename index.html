@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Rectangle Symmetry Simulator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1>Klein Four Group Simulator</h1>
+
+  <canvas id="canvas" width="500" height="500"></canvas>
+
+  <div class="buttons">
+    <button onclick="flipHorizontal()">Horizontal Flip</button>
+    <button onclick="flipVertical()">Vertical Flip</button>
+    <button onclick="rotate180()">Rotate 180°</button>
+    <button onclick="resetShape()">Reset</button>
+  </div>
+<h3>Transformation History</h3>
+<div id="history"></div> 
+
+  <h2 id="state">Current State: Identity</h2>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
